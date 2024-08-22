@@ -22,9 +22,9 @@ The example uses the `transfer` demo in the `AW31N_SDK`.
 	1. The command will create a `aw31n-sdk` container with the `transfer` folder mounted at the ready to compile path in the container.  
 	2. Then, the tranfer demo will be compiled in the container.  
 	3. Finally, the firmware would be copied out.
-   
-   > [!TIP]
-   > In practice, you should change `transfer` to your actual project folder name.
+
+> [!TIP]
+> In practice, you should change `transfer` to your actual project folder name.
 
 3. The compiled firmware `update.ufw` would be copied into `transfer/post_build` as below.
    ```tree
